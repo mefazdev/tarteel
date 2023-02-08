@@ -1,0 +1,130 @@
+.footer{
+    /* height: 400px; */
+    /* border: green solid; */
+    background-color: #191b1c;
+    padding-bottom: 50px;
+}
+.footer__content{
+    /* border: solid red; */
+    /* margin-top: 40px; */
+    /* height: 140px; */
+    padding-top: 50px;
+    width: 80%   ;
+    margin: auto;
+}
+.footer__left{
+    margin: auto;
+}
+.footer__content h4{
+    font-family: "DM Sans",sans-serif;
+    letter-spacing: .18px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.footer__content p{
+    /* font-family: 'Poppins', sans-serif; */
+    color: #9a9a9a;
+    font-weight: 100;
+    /* font-size: 14px; */
+    /* letter-spacing: .9px; */
+    margin-top: 5px;
+    /* font: normal normal  13px/35px Poppins; 
+ font-family: 'Poppins', sans-serif;  */
+ font: normal normal normal 14px/25px DM Sans;
+ font-family: "DM Sans",sans-serif;
+ letter-spacing: .28px;
+ /* color: #9a9a9a; */
+ cursor: pointer;
+}
+
+.links{
+    /* margin: auto; */
+  
+    min-height: 150px;
+    /* border: white solid; */
+}
+.policy{
+    /* margin: auto; */
+  
+    min-height: 150px;
+}
+.footer__form{
+    margin: auto;
+    /* border: solid red; */
+    min-height: 150px;
+    padding-right: 30px;
+}
+.footer__form h6{
+    font: normal normal normal 13px/22px DM Sans;
+    font-family: "DM Sans",sans-serif;
+    letter-spacing: .28px;
+    color: #9a9a9a;
+    
+}
+.form__input__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+  height: 35px;
+  align-items: center;
+  margin-top: 30px;
+}
+.form__input__div input{
+    border: none;
+    outline: none;
+    font: normal normal normal 12px/20px Barlow;
+    font-family: 'Barlow', sans-serif;
+letter-spacing: 0.26px;
+color: #ACACAC;
+height: 20px;
+padding-left: 10px;
+/* width: 100%; */
+}
+.footer__icon__div{
+    background-color: #80120e;
+    color: #FFFFFF;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#footer__icon{
+    font-size: 15px;
+}
+
+.footer__icon{
+    color: white;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#footer__icons{
+    font-size: 25px;
+}
+
+@media (max-width: 800px) {
+    .form__input__div input{
+      
+ 
+
+    height: 20px;
+    padding-left: 10px;
+    /* width: 100%; */
+    }
+    .footer__form{
+        margin: auto;
+        margin-top: 30px;
+       
+    }
+    .footer__icon{
+       
+        margin-top: 20px;
+    }
+}

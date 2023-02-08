@@ -1,0 +1,299 @@
+.home__hero {
+  height: 90vh;
+
+  background: url("./bg//books.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: saddlebrown solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home__hero__div{
+  color: #fff;
+  width: 100%;
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.779);
+ padding: 30px;
+ box-shadow: rgba(255, 255, 255, 0.979) 1.95px 1.95px 2.6px;
+}
+.home__hero__div h1{
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+}
+.home__hero__div h4{
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+.home {
+  background-color: #202224;
+  /* height: 200vh; */
+  padding-bottom: 100px;
+}
+.home__types__row {
+  margin-top: 50px;
+
+  /* padding-bottom: 50px; */
+}
+.home__types__row h1 {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 7%;
+  font-weight: 700;
+}
+.home__types {
+  /* border: saddlebrown solid; */
+  /* height: 100px; */
+  margin: auto;
+  /* margin-top: 50px; */
+  max-width: 90%;
+}
+.home__types__second__row {
+  margin: auto;
+  /* margin-top: 50px; */
+  max-width: 90%;
+  border-bottom: 1px solid rgb(56, 55, 55);
+  padding-bottom: 70px;
+
+}
+
+.home__type__item {
+  /* border: solid green; */
+  max-width: 350px;
+  width: 100%;
+  background: url("./bg/quran.jpg");
+  height: 210px;
+  background-size: cover;
+  border-radius: 20px;
+  align-items: flex-end;
+  display: flex;
+
+  margin: auto;
+  margin-top: 30px;
+  opacity: 0.9;
+}
+.home__type__item:hover {
+  opacity: 1;
+  max-width: 375px;
+  width: 101%;
+  transition: ease-in;
+  /* transform:  */
+}
+
+.home__types__name {
+  /* border: green solid; */
+  /* height: 30px; */
+  padding-bottom: 20px;
+  width: 100%;
+  align-items: center;
+}
+.home__types__box {
+  background-color: #80120e;
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+}
+.home__types__name h2 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 20px;
+}
+.home__type__item__two {
+  /* border: solid green; */
+  max-width: 350px;
+  width: 100%;
+  background: url("./bg/arabic.jpg");
+  height: 210px;
+  background-size: cover;
+  border-radius: 20px;
+  align-items: flex-end;
+  display: flex;
+
+  margin: auto;
+  margin-top: 30px;
+  opacity: 0.9;
+}
+.home__type__item__two:hover {
+  opacity: 1;
+  max-width: 375px;
+  width: 101%;
+  transition: ease-in;
+}
+.home__type__item__three {
+  /* border: solid green; */
+  max-width: 350px;
+  width: 100%;
+  background: url("./bg/fiqh.jpg");
+  height: 210px;
+  background-size: cover;
+  border-radius: 20px;
+  align-items: flex-end;
+  display: flex;
+  opacity: 0.9;
+  margin: auto;
+  margin-top: 30px;
+}
+.home__type__item__three:hover {
+  opacity: 1;
+  max-width: 375px;
+  width: 101%;
+  transition: ease-in;
+}
+.home__type__item__four {
+  /* border: solid green; */
+  max-width: 350px;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1600814832809-579119f47045?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=431&q=80 ");
+  height: 210px;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.9;
+  border-radius: 20px;
+  align-items: flex-end;
+  display: flex;
+
+  margin: auto;
+  margin-top: 30px;
+}
+.home__type__item__four:hover {
+  opacity: 1;
+  max-width: 375px;
+  width: 101%;
+  transition: ease-in;
+}
+.home__type__item__five {
+  /* border: solid green; */
+  max-width: 350px;
+  width: 100%;
+  background: url("./bg/theology.jpg");
+  height: 210px;
+  background-size: contain;
+  border-radius: 20px;
+  align-items: flex-end;
+  display: flex;
+  opacity: 0.9;
+  margin: auto;
+  margin-top: 30px;
+}
+.home__type__item__five:hover {
+  opacity: 1;
+  max-width: 375px;
+  width: 101%;
+  transition: ease-in;
+}
+.home__type__item__six {
+  /* border: solid green; */
+  max-width: 350px;
+  width: 100%;
+  background: url("./bg/books.jpg");
+  height: 210px;
+  background-size: cover;
+  border-radius: 20px;
+  align-items: flex-end;
+  display: flex;
+  opacity: 0.9;
+  margin: auto;
+  margin-top: 30px;
+}
+.home__type__item__six:hover {
+  opacity: 1;
+  max-width: 375px;
+  width: 101%;
+  transition: ease-in;
+}
+
+@media (max-width: 800px) {
+  .home__hero {
+    height: 50vh;
+    
+ 
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .home {
+    background-color: #202224;
+    /* height: 200vh; */
+    /* padding-bottom: 100px; */
+  }
+  .home__types__row {
+    margin-top: 20px;
+  }
+  .home__types__row h1 {
+    text-align: left;
+    font-size: 26px;
+    color: #fff;
+    /* margin-left: 7%; */
+    font-weight: 700;
+    margin-left: 0;
+  }
+  .home__types__name h2 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .home__types__box {
+    background-color: #80120e;
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+  }
+  .home__type__item__six {
+    /* border: solid green; */
+
+    max-height: 180px;
+  }
+  .home__type__item {
+    height: 180px;
+    margin-top: 15px;
+  }
+
+  .home__type__item__two {
+    height: 180px;
+  }
+
+  .home__type__item__three {
+    height: 180px;
+  }
+
+  .home__type__item__four {
+    height: 180px;
+  }
+
+  .home__type__item__five {
+    height: 180px;
+  }
+  .home__types__second__row {
+   
+  
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .home__types {
+    /* border: saddlebrown solid; */
+    /* height: 100px; */
+    margin: auto;
+
+    max-width: 100%;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+  }
+  .home__types__second__row {
+    margin: auto;
+
+    max-width: 100%;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+  }
+  .home__types__row {
+    /* border: solid red; */
+    padding: 15px;
+  }
+}
