@@ -39,7 +39,7 @@ export default function Home() {
         <div className="home__types__row ">
           <h1>Choose your Topic</h1>
           <div className="home__types grid md:grid-cols-2 lg:grid-cols-3">
-           <Link href='/quran'>
+           <Link href='/Quran'>
            <div className="home__type__item">
               <div className="home__types__name flex">
                 <div className="home__types__box"></div>
@@ -49,7 +49,7 @@ export default function Home() {
            </Link>
             
 
-            <Link href='/prophetic'>
+            <Link href='/Prophetic'>
             <div className="home__type__item__six">
               <div className="home__types__name flex">
                 <div className="home__types__box"></div>
@@ -57,7 +57,7 @@ export default function Home() {
               </div>
             </div>
             </Link>
-            <Link href='/notWritten'>
+            <Link href='/NotWritten'>
             <div className="home__type__item__two">
               <div className="home__types__name flex">
                 <div className="home__types__box"></div>
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
 
           <div className="home__types__second__row grid md:grid-cols-2 lg:grid-cols-3">
-          <Link href='/notWritten'>
+          <Link href='/NotWritten'>
           <div className="home__type__item__three">
               <div className="home__type__content">
                 <div className="home__types__name flex">
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
             </div>
             </Link>
-            <Link href='/notWritten'>
+            <Link href='/NotWritten'>
             <div className="home__type__item__four">
               <div className="home__types__name flex">
                 <div className="home__types__box"></div>
@@ -86,7 +86,7 @@ export default function Home() {
               </div>
             </div>
             </Link>
-            <Link href='/notWritten'>
+            <Link href='/NotWritten'>
             <div className="home__type__item__five">
               <div className="home__types__name flex">
                 <div className="home__types__box"></div>
