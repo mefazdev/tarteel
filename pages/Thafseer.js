@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+// import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 import { useState } from "react";
 import Link from "next/link";
 export default function Thafseer() {
@@ -168,7 +168,7 @@ export default function Thafseer() {
                       <p>{data.surah}</p>
                     </div>
 
-                    <PlayCircleIcon id="play__button" />
+                    {/* <PlayCircleIcon id="play__button" /> */}
                   </div>
                 </Link>
               );
