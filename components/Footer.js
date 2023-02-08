@@ -1,8 +1,8 @@
-// import SendIcon from '@mui/icons-material/Send';
-// import YouTubeIcon from '@mui/icons-material/YouTube';
-// import InstagramIcon from '@mui/icons-material/Instagram';
-// import FacebookIcon from '@mui/icons-material/Facebook';
-// import TwitterIcon from '@mui/icons-material/Twitter';
+import SendIcon from '@mui/icons-material/Send';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
 export default function Footer() {
   return (
     <div className="footer ">
@@ -31,15 +31,15 @@ export default function Footer() {
               <div className="form__input__div">
                 <input placeholder="Enter email address" type="email" />
                 <div className="footer__icon__div">
-                  {/* <SendIcon type="button" id="footer__icon" /> */}
+                  <SendIcon type="button" id="footer__icon" />
                 </div>
               </div>
 
               <div className='footer__icon'>
-{/* <YouTubeIcon id='footer__icons'/>
+<YouTubeIcon id='footer__icons'/>
 <FacebookIcon id='footer__icons'/>
 <InstagramIcon id='footer__icons'/>
-<TwitterIcon id='footer__icons'/> */}
+<TwitterIcon id='footer__icons'/>
         </div>
         </div>
 

@@ -2,10 +2,10 @@ import Link from 'next/link'
 import { useRouter }  from "next/router";
 import logo from '../public/images/logo1.png'
 import Image from 'next/image'
-// import SearchIcon from '@mui/icons-material/Search';
-// import PermIdentityIcon from '@mui/icons-material/PermIdentity';
+import SearchIcon from '@mui/icons-material/Search';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
  
-// import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
 import {useState} from 'react'
 
 export default function Header() {
@@ -28,14 +28,14 @@ export default function Header() {
             </div>
 
             <div className='header__right justify-between '>
-           {/* <SearchIcon id='header__icon'/>
-           <PermIdentityIcon id='header__icon'/> */}
+           <SearchIcon id='header__icon'/>
+           <PermIdentityIcon id='header__icon'/>
        
             </div>
          
                 </div>
            
-                {/* < MenuIcon onClick={()=>setstate(!state)} id='menu__icon' className=' md:invisible'/> */}
+                < MenuIcon onClick={()=>setstate(!state)} id='menu__icon' className=' md:invisible'/>
            
            
         </div>
