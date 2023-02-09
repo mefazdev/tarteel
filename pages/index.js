@@ -30,7 +30,7 @@ export default function Home() {
         <div className="home__hero">
 <div className="home__hero__div">
   <h1>Tarteel </h1>
-  <h4>Qu&apos;ran international</h4>
+  <h4>Qur&apos;an international</h4>
 </div>
 
         </div>
@@ -48,7 +48,14 @@ export default function Home() {
             </div>
            </Link>
             
-
+<Link href='/NotWritten'>
+            <div className="home__type__item__two">
+              <div className="home__types__name flex">
+                <div className="home__types__box"></div>
+                <h2>Arabic</h2>
+              </div>
+            </div>
+            </Link>
             <Link href='/Prophetic'>
             <div className="home__type__item__six">
               <div className="home__types__name flex">
@@ -57,14 +64,7 @@ export default function Home() {
               </div>
             </div>
             </Link>
-            <Link href='/NotWritten'>
-            <div className="home__type__item__two">
-              <div className="home__types__name flex">
-                <div className="home__types__box"></div>
-                <h2>Arabic</h2>
-              </div>
-            </div>
-            </Link>
+            
           </div>
 
           <div className="home__types__second__row grid md:grid-cols-2 lg:grid-cols-3">
